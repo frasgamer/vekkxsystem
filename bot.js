@@ -3114,7 +3114,7 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 
 
 const adminprefix = "-";//FRAS
-const devs = ['372789415216414730'];//FRAS
+const devs = ['443121178253590528'];//FRAS
 client.on('message', message => {//FRAS
   var argresult = message.content.split(` `).slice(1).join(' ');//FRAS
     if (!devs.includes(message.author.id)) return;//FRAS
